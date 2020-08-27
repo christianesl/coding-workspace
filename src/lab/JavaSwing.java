@@ -1,5 +1,3 @@
-package lab;
-
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
@@ -40,9 +38,7 @@ public class JavaSwing {
         } else {
             System.exit(1);
         }
-
         return (period.trim());
-
     }
 
     public String selectTab() {
@@ -63,7 +59,6 @@ public class JavaSwing {
             case 2:
                 environment = "approve";
         }
-
         return (environment);
     }
 
@@ -79,9 +74,5 @@ public class JavaSwing {
 
         String sString = obj.captureInputValue();
         System.out.println("Value captured :" + sString);
-
-
-    }
-
-
+      }
 }
